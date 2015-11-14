@@ -263,6 +263,14 @@
     });
   };
 
+  ahoy.setEventsUrl = function(url) {
+    eventsUrl = url;
+  };
+
+  ahoy.setVisitsUrl = function(url) {
+    visitsUrl = url;
+  };
+
   ahoy.trackAll = function() {
     ahoy.trackView();
     ahoy.trackClicks();
